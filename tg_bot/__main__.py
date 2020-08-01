@@ -46,7 +46,7 @@ I'm managed by [CeoWhiteHatCracks](https://t.me/ceowhitehatcracks)
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-LYNDA_IMG = "https://telegra.ph/file/35005c01182645232f2d3.jpg"
+LYNDA_IMG = "https://telegra.ph/file/d526a22afbb9e004c7970.jpg"
 
 DONATE_STRING = """Heya, No Need To Donate
 Just Contribute With Joining Here @WhiteHatCracks \
