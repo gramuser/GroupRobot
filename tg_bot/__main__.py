@@ -21,19 +21,19 @@ Hi {}, my name is {}!
 // I am an Group Manager Robot Made By CeoWhiteHatCracks.
 You can find the list of available commands with /help.
 ==========================
--> [My Support Group](https://t.me/sensiblegroupmanagement)
--> My Creator [CeoWhiteHatCracks](https://t.me/ceowhitehatcracks)
+-> [My Support Group](https://t.me/Ramvansclone)
+-> My Creator [CeoWhiteHatCracks](https://t.me/Ramvans)
 ==========================
-`Maintained by` @CeoWhiteHatCracks
+`Maintained by` @Ramvans
 
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Part Of Sensible Group Management team.
+I'm a Part Of OnlyforquizNeet Group Management team.
 Look Down I Can Help You With Many Things\
 This Bot Supports Everything That No Bot Support HEHE Means It Is Better Then Other Bots.
-I'm managed by [CeoWhiteHatCracks](https://t.me/ceowhitehatcracks)
+I'm managed by [Ramvans](https://t.me/Ramvansclone)
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
@@ -46,10 +46,10 @@ I'm managed by [CeoWhiteHatCracks](https://t.me/ceowhitehatcracks)
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-LYNDA_IMG = "https://telegra.ph/file/d526a22afbb9e004c7970.jpg"
+LYNDA_IMG = "https://telegra.ph/file/f05eddc972d1f69122ed8.jpg"
 
 DONATE_STRING = """Heya, No Need To Donate
-Just Contribute With Joining Here @WhiteHatCracks \
+Just Contribute With Joining Here @Ramvans \
 Thanks For Donating"""
 
 IMPORTED = {}
