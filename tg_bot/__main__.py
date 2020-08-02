@@ -22,7 +22,7 @@ Hi {}, my name is {}!
 You can find the list of available commands with /help.
 ==========================
 -> [My Support Group](https://t.me/Ramvansclone)
--> My Creator [CeoWhiteHatCracks](https://t.me/Ramvans)
+-> My Creator [Ramvans](https://t.me/Ramvans)
 ==========================
 `Maintained by` @Ramvans
 
@@ -139,9 +139,9 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="👥 Add This Bot To Your Group", url="https://t.me/ceogrouphelp_bot?startgroup=new")],
-                [InlineKeyboardButton(text="🙋 Support Group", url="https://t.me/sensiblegroupmanagement"), InlineKeyboardButton(text="We Are Here To Hear You", url="https://t.me/ceowhitehatcracks_bot")],
-                [InlineKeyboardButton(text="❔ Help", callback_data="help_back"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/sensiblegroupmanagement")]])
+                [[InlineKeyboardButton(text="👥 Add This Bot To Your Group", url="https://t.me/Lydi09_bot?startgroup=new")],
+                [InlineKeyboardButton(text="🙋 Support Group", url="https://t.me/onlyforquiz"), InlineKeyboardButton(text="We Are Here To Hear You", url="https://t.me/Lydi09_bot")],
+                [InlineKeyboardButton(text="❔ Help", callback_data="help_back"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/pariksha_offical")]])
             update.effective_message.reply_photo(LYNDA_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=buttons)
