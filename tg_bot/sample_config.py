@@ -46,7 +46,6 @@ class Config(object):
     LASTFM_API_KEY = None # Get one from https://last.fm/api/
     DEEPFRY_TOKEN = None
     API_WEATHER = None
-     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 class Production(Config):
     LOGGER = True
